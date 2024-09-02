@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Clone</title>
+    <link rel="stylesheet" href="styles.css">
+    
+    
+</head>
+<body>
+    <!-- Navigation Bar  -->
+ <!--------------------------->
+    <nav class="navbar">
+        <div class="menu-icon">
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <img src="./image/youtube.png" alt="YouTube Logo">
+        </div>
+        
+
+
+
+
+    
+        <div class="logo">YouTube</div>
+        <div class="search-bar">
+            <input type="text" placeholder="Search">
+            <button><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M784-120 532-372q-30 24-69 38t-83 14q-109 0-184.5-75.5T120-580q0-109 75.5-184.5T380-840q109 0 184.5 75.5T640-580q0 44-14 83t-38 69l252 252-56 56ZM380-400q75 0 127.5-52.5T560-580q0-75-52.5-127.5T380-760q-75 0-127.5 52.5T200-580q0 75 52.5 127.5T380-400Z"/></svg></button>
+        </div>
+        <div class="nav-icons">
+            <img src="./image/create video-trimming-64.png" alt="Create">
+            <img src="./image/notification-icons8-bell-50.png" alt="Notifications">
+            <img src="./image/profiel-icons8-test-account-50.png" alt="Profile" class="profile-icon">
+        </div>
+    </nav>
+
+
+    
+        <!-- Sidebar -->
+     <!------------------>
+    <aside class="sidebar">
+        <ul>
+            <li><img src="./image/home_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg" alt="Home"> Home</li>
+            <li><img src="./image/shorts.png" alt="Shorts"> Shorts</li>
+            <li><img src="./image/subscribe-64.png" alt="Subscriptions"> Subscriptions</li>
+            <li class="divider"></li>
+        </ul>
+
+        <div class="you">
+            <h4>You</h4>
+            <ul>
+                <li><img src="./image/library-80.png" alt="Library"> Library</li>
+                <li><img src="./image/history-24.png" alt="History"> History</li>
+                <li><img src="./image/playlist-50.png" alt="Playlists"> Playlists</li>
+                <li><img src="./image/your -folder-64.png" alt="Your videos"> Your videos</li>
+                <li><img src="./image/watch-clock-24.png" alt="Watch later"> Watch later</li>
+                <li><img src="./image/likedl-media-24.png" alt="Liked videos"> Liked videos</li>
+                <li class="divider"></li>
+            </ul>
+        </div>
+        
+
+        <div class="subscriptions">
+            <h4>Subscriptions</h4>
+            <ul>
+                <li><img src="./image/a.jpg" alt="Channel"> Channel 1</li>
+                <li><img src="./image/wallpaperflare.com_wallpaper (3).jpg" alt="Channel"> Channel 2</li>
+                <li><img src="./image/wallpaperflare.com_wallpaper (7).jpg" alt="Channel"> Channel 3</li>
+                <li class="divider"></li>
+            </ul>
+        </div>
+        
+        <div class="explore">
+            <h4>Explore</h4>
+            <ul>
+                <li><img src="./image/trending-icons8-trending-32.png" alt="Trending"> Trending</li>
+                <li><img src="./image/shopping-icons8-add-shopping-cart-48.png" alt="Shopping"> Shopping</li>
+                <li><img src="./image/music-icons8-musical-note-64.png" alt="Music"> Music</li>
+                <li><img src="./image/movies-icons8-movies-64.png" alt="Movies"> Movies</li>
+                <li><img src="./image/live-icons8-live-photos-64.png" alt="Live"> Live</li>
+                <li><img src="./image/game-icons8-game-50.png" alt="Gaming"> Gaming</li>
+                <li><img src="./image/sports-icons8-trophy-40.png" alt="Sports"> Sports</li>
+                <li class="divider"></li>
+            </ul>
+        </div>
+
+        <div class="settings">
+            <ul>
+                <li><img src="./image/setting-icons8-setting-80.png" alt="Settings"> Settings</li>
+                <li><img src="./image/help-icons8-help-48.png" alt="Help"> Help</li>
+                <li><img src="./image/feed back-icons8-feedback-50.png" alt="Send feedback"> Send feedback</li>
+                <li class="divider"></li>
+            </ul>
+        </div>
+
+        <div class="about">
+            <p>
+                AboutPressCopyright<br>Contact usCreators<br>AdvertiseDevelopers<br><br>
+                TermsPrivacyPolicy & Safety<br>How YouTube works<br>Test new features<br>
+                <br><br>© 2024 Google LLC
+            </p>
+        </div>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="content">
+        <div class="video-filter">
+            <button class="active">All</button>
+            <button>Music</button>
+            <button>Gaming</button>
+            <button>Live</button>
+            <button>News</button>
+            <button>Mixes</button>
+            <button>Watched</button>
+            <button>malayalam cinema</button>
+            <button>Indian pop music</button>
+            <button>Science fiction</button>
+            <button>New to you</button>
+            
+        </div>
+
+        <div class="video-grid">
+            <!-- Example Video Cards -->
+            <div class="video-card">
+                <img src="./image/goku.jpg" alt="Video Thumbnail">
+                <div class="video-info">
+                    <h3>Video Title</h3>
+                    <p>Channel Name • 107K views • 12 hours ago</p>
+                </div>
+            </div> 
+            <div class="video-card">
+                <img src="./image/a.jpg" alt="Video Thumbnail">
+                <div class="video-info">
+                    <h3>Video Title</h3>
+                    <p>Channel Name • 107K views • 12 hours ago</p>
+                </div>
+            </div>
+            <div class="video-card">
+                <img src="./image/wallpaperflare.com_wallpaper (7).jpg" alt="Video Thumbnail">
+                <div class="video-info">
+                    <h3>Video Title</h3>
+                    <p>Channel Name • 107K views • 12 hours ago</p>
+                </div>
+            </div>
+            <div class="video-card">
+                <img src="./image/goku.jpg" alt="Video Thumbnail">
+                <div class="video-info">
+                    <h3>Video Title</h3>
+                    <p>Channel Name • 107K views • 12 hours ago</p>
+                </div>
+            </div> 
+            <div class="video-card">
+                <img src="./image/a.jpg" alt="Video Thumbnail">
+                <div class="video-info">
+                    <h3>Video Title</h3>
+                    <p>Channel Name • 107K views • 12 hours ago</p>
+                </div>
+            </div>
+            <div class="video-card">
+                <img src="./image/wallpaperflare.com_wallpaper (7).jpg" alt="Video Thumbnail">
+                <div class="video-info">
+                    <h3>Video Title</h3>
+                    <p>Channel Name • 107K views • 12 hours ago</p>
+                </div>
+            </div>
+            <div class="video-card">
+                <img src="./image/goku.jpg" alt="Video Thumbnail">
+                <div class="video-info">
+                    <h3>Video Title</h3>
+                    <p>Channel Name • 107K views • 12 hours ago</p>
+                </div>
+            </div> 
+            <div class="video-card">
+                <img src="./image/a.jpg" alt="Video Thumbnail">
+                <div class="video-info">
+                    <h3>Video Title</h3>
+                    <p>Channel Name • 107K views • 12 hours ago</p>
+                </div>
+            </div>
+            <div class="video-card">
+                <img src="./image/wallpaperflare.com_wallpaper (7).jpg" alt="Video Thumbnail">
+                <div class="video-info">
+                    <h3>Video Title</h3>
+                    <p>Channel Name • 107K views • 12 hours ago</p>
+                </div>
+            </div>
+            <div class="video-card">
+                <img src="./image/wallpaperflare.com_wallpaper (3).jpg" alt="Video Thumbnail">
+                <div class="video-info">
+                    <h3>Video Title</h3>
+                    <p>Channel Name • 107K views • 12 hours ago</p>
+                </div>
+            </div>
+            <div class="video-card">
+                <img src="./image/wallpaperflare.com_wallpaper (10).jpg" alt="Video Thumbnail">
+                <div class="video-info">
+                    <h3>Video Title</h3>
+                    <p>Channel Name • 107K views • 12 hours ago</p>
+                </div>
+            </div>
+            <div class="video-card">
+                <img src="./image/wallpaperflare.com_wallpaper (7).jpg" alt="Video Thumbnail">
+                <div class="video-info">
+                    <h3>Video Title</h3>
+                    <p>Channel Name • 107K views • 12 hours ago</p>
+                </div>
+            </div>
+            <div class="video-card">
+                <img src="./image/goku.jpg" alt="Video Thumbnail">
+                <div class="video-info">
+                    <h3>Video Title</h3>
+                    <p>Channel Name • 107K views • 12 hours ago</p>
+                </div>
+            </div>
+            <div class="video-card">
+                <img src="./image/goku.jpg" alt="Video Thumbnail">
+                <div class="video-info">
+                    <h3>Video Title</h3>
+                    <p>Channel Name • 107K views • 12 hours ago</p>
+                </div>
+            </div>
+            <div class="video-card">
+                <img src="./image/wallpaperflare.com_wallpaper (8).jpg" alt="Video Thumbnail">
+                <div class="video-info">
+                    <h3>Video Title</h3>
+                    <p>Channel Name • 107K views • 12 hours ago</p>
+                </div>
+            </div> 
+            <div class="video-card">
+                <img src="./image/a.jpg" alt="Video Thumbnail">
+                <div class="video-info">
+                    <h3>Video Title</h3>
+                    <p>Channel Name • 107K views • 12 hours ago</p>
+                </div>
+            </div>
+            <div class="video-card">
+                <img src="./image/wallpaperflare.com_wallpaper (7).jpg" alt="Video Thumbnail">
+                <div class="video-info">
+                    <h3>Video Title</h3>
+                    <p>Channel Name • 107K views • 12 hours ago</p>
+                </div>
+            </div>
+            <div class="video-card">
+                <img src="./image/wallpaperflare.com_wallpaper (9).jpg" alt="Video Thumbnail">
+                <div class="video-info">
+                    <h3>Video Title</h3>
+                    <p>Channel Name • 107K views • 12 hours ago</p>
+                </div>
+            </div>
+            <div class="video-card">
+                <img src="./image/wallpaperflare.com_wallpaper.jpg" alt="Video Thumbnail">
+                <div class="video-info">
+                    <h3>Video Title</h3>
+                    <p>Channel Name • 107K views • 12 hours ago</p>
+                </div>
+            </div>
+            <div class="video-card">
+                <img src="./image/wallpaperflarm_wallpaper (4).jpg" alt="Video Thumbnail">
+                <div class="video-info">
+                    <h3>Video Title</h3>
+                    <p>Channel Name • 107K views • 12 hours ago</p>
+                </div>
+            </div>
+            <div class="video-card">
+                <img src="./image/goku.jpg" alt="Video Thumbnail">
+                <div class="video-info">
+                    <h3>Video Title</h3>
+                    <p>Channel Name • 107K views • 12 hours ago</p>
+                </div>
+            </div>
+            
+            
+        </div>
+    </main>
+</body>
+</html>
